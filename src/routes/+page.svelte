@@ -5,7 +5,6 @@
 	import MidCTA from "$lib/components/MidCTA.svelte";
 	import FAQ from "$lib/components/FAQ.svelte";
 	import Contact from "$lib/components/Contact.svelte";
-	import FooterCTA from "$lib/components/FooterCTA.svelte";
 </script>
 
 <Header />
@@ -16,6 +15,5 @@
 	<MidCTA />
 	<FAQ />
 	<Contact />
-	<FooterCTA />
 </main>
 
