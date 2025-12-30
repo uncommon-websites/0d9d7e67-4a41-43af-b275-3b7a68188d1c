@@ -4,7 +4,7 @@
             Mission<br>Ready.
         </h2>
         
-        <a href="mailto:contact@atheonlabs.com" class="bg-black text-white px-8 py-4 text-xs uppercase tracking-[0.2em] font-bold hover:bg-gray-900 transition-colors mb-12 cursor-pointer">
+        <a href="mailto:yashraj@atheonlabs.com" class="bg-black text-white px-8 py-4 text-xs uppercase tracking-[0.2em] font-bold hover:bg-gray-900 transition-colors mb-12 cursor-pointer">
             Contact Us
         </a>
 
