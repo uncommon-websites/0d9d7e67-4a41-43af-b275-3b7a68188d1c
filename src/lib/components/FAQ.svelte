@@ -2,27 +2,16 @@
     let openIndex: number | null = 0;
 
     const faqs = [
-        { q: "What is the US Tech Force (Tech Force)?", a: "Tech Force will be an elite group of ~1,000 technology specialists hired by agencies to accelerate artificial intelligence (AI) implementation and solve the federal government's most critical technological challenges. Tech Force will primarily recruit early-career technologists from traditional recruiting channels, along with experienced engineering managers from private sector partners, to serve two-year employment terms in the federal government. Tech Force will include centralized organization and programming and serve as a recruiting platform post-employment." },
-        { q: "What are the key steps in the recruiting process?", a: "Details about the recruiting process..." },
-        { q: "What skills are required?", a: "Details about required skills..." },
-        { q: "Are specific educational credentials required to participate?", a: "Details about credentials..." },
-        { q: "Is there a minimum experience level required to apply?", a: "Details about experience..." },
-        { q: "Is this a political appointment?", a: "Details about political appointment..." },
-        { q: "When am I expected to start?", a: "Details about start date..." },
-        { q: "Where will the employment be located?", a: "Details about location..." },
-        { q: "What is the expected compensation for participants?", a: "Details about compensation..." },
-        { q: "What projects will participants work on?", a: "Details about projects..." },
-        { q: "What agencies will participate in Tech Force?", a: "Details about agencies..." },
-        { q: "What companies are participating in Tech Force?", a: "Details about companies..." },
-        { q: "How do private sector companies partner with Tech Force?", a: "Details about partnerships..." },
-        { q: "Are there any other benefits?", a: "Details about benefits..." },
-        { q: "What is the duration of the program?", a: "Details about duration..." },
-        { q: "What happens after the employment is completed?", a: "Details about post-employment..." },
-        { q: "What is the duration of Tech Force as a whole?", a: "Details about program duration..." },
-        { q: "Will the program have a political mission?", a: "Details about mission..." },
-        { q: "How do candidates nominated by a private sector company participate? Do they retain their private sector employment?", a: "Details about nomination..." },
-        { q: "Will participants nominated by private sector companies be able to retain their deferred compensation packages (RSUs, options, etc.)?", a: "Details about compensation packages..." },
-        { q: "How is Tech Force related to other government technology programs, including ones at GSA or the United States DOGE Service?", a: "Details about relations..." },
+        { q: "What makes Atheon Labs different from existing defense software providers?", a: "We take a minimalist approach to mission-critical software. While competitors add layers of complexity, we strip it away. Our platform is built for extreme environments where reliability isn't optional—it's essential. Every feature is designed for high-stakes operational decisions." },
+        { q: "What types of defense programs does Atheon Labs support?", a: "We focus on high-priority defense programs where operational decisions have immediate consequences. Our platform supports command and control systems, intelligence operations, and mission planning across multiple domains. We specialize in environments where legacy systems have historically failed." },
+        { q: "How does Atheon Labs ensure software reliability in extreme environments?", a: "Reliability is built into our architecture from day one. We use redundant systems, rigorous testing protocols, and minimalist design principles to eliminate points of failure. Our software is engineered to operate in contested environments with limited connectivity, extreme weather, and high-stress operational conditions." },
+        { q: "What is your deployment model?", a: "We offer flexible deployment options including on-premise, air-gapped, and cloud-hybrid solutions. Our platform can operate in fully disconnected environments and synchronize when connectivity is restored. Security and operational requirements drive our deployment architecture." },
+        { q: "How does Atheon Labs handle security and compliance?", a: "Security is fundamental to everything we build. We maintain compliance with DoD security standards, including FedRAMP, CMMC, and IL5/IL6 requirements. Our platform undergoes continuous security auditing and penetration testing. We design for zero-trust architectures by default." },
+        { q: "What is the typical contract structure?", a: "We start with pilot programs on high-priority missions, typically 6-12 months. Once we prove operational value and become mission-critical, we transition to multi-year contracts. Our goal is to become so essential to operations that renewal is automatic." },
+        { q: "How quickly can Atheon Labs deploy to a new program?", a: "Our minimalist architecture enables rapid deployment. Initial pilot programs can be operational within weeks, not months. We prioritize speed to value—getting capabilities into operators' hands quickly while maintaining our reliability standards." },
+        { q: "Does Atheon Labs integrate with existing legacy systems?", a: "Yes, but we're selective about integration points. We can interface with legacy systems where necessary, but our philosophy is to replace fragile infrastructure rather than build on top of it. We focus on clean data pipelines and modern APIs." },
+        { q: "What kind of training and support does Atheon Labs provide?", a: "We provide comprehensive operator training and 24/7 mission support. Our platform is designed to be intuitive—minimizing training overhead. For mission-critical deployments, we embed technical specialists to ensure operational success." },
+        { q: "How does pricing work?", a: "Our pricing is based on mission scope and operational scale. We structure contracts to align with program budgets and multi-year funding cycles. Initial pilots are designed to demonstrate ROI quickly, justifying expanded deployment and long-term commitment." },
     ];
 
     function toggle(index: number) {
